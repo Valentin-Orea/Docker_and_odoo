@@ -29,6 +29,9 @@ $docker run -d -v odoo-db:/var/lib/postgresql/data -e POSTGRES_USER=odoo -e POST
 Lanzar o arrancar la imagen de odoo
 $docker run -v odoo-data:/var/lib/odoo -d -p 8069:8069 --name odoo --link db:db -t odoo:latest
 
+<image src="/images/screenshot.png" alt="Activar docker e iniciar servicios">
+
+
 
 
 
